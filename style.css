@@ -1,0 +1,539 @@
+
+
+/* Validi per tutto il sito */
+
+body {
+    background-color: cornsilk
+}
+
+.nav-cs { 
+    background-color: #f5e7d4;
+    width: 100%;
+    height: 60px;
+    position: fixed !important;
+}
+
+.col-2, .col-1, .nocolor {
+
+    color: #00bf63;
+    text-decoration: none;
+}
+
+.col-10 {
+    font-size: 18px;
+    margin: 40px 0px 20px 0px;
+    text-align: left;
+}
+
+a:hover {
+    color: burlywood;
+    text-decoration: underline
+}
+
+ul {
+    list-style-type: none; 
+}
+
+li {
+    font-size: 15px;
+    color: black
+}
+
+.logo_pixel {
+    float: left;
+    width: 50px;
+}
+
+#powered {
+    color: #00bf63;
+    font-size: 12px;
+    float: left;
+    margin-top: 16px;
+}
+
+/* Validi per la pagina Home */
+.foto_home {
+    background-image: url('webp/180576507.webp');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto2 {
+    background-image: url('webp/519075256.webp');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto3 {
+    background-image: url('webp/207986903.webp');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto4 {
+    background-image: url('webp/meditation.webp');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto5 {
+    background-image: url('webp/fotokirlian.webp');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo_bios {
+    width: 300px;
+    padding: 250px 0px 50px 120px;
+}
+
+.istituto {
+    color: #00bf63;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.istituto1 {
+    color: #fff;
+    font-size: 40px;
+    padding-top: 500px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.istituto2 {
+    color: #fff;
+    font-size: 40px;
+    padding-top: 500px;
+    margin-top: 20px;
+    margin-left: 750px;
+}
+
+.ricerca {
+    color: #00bf63;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.ricerca1 {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.ricerca2 {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 750px;
+}
+
+.footer_cs {
+    background-color: #f5e7d4;
+}
+
+.foot {
+    margin-top: 0px;
+    margin-left: 550px;
+    margin-bottom: 100px;
+}
+
+/* Validi per la pagina Chi siamo */
+
+.foto_chisiamo {
+    background-image: url('webp/chisiamo.webp');
+    width: 100%;
+    height: 100vh;
+    margin: 0 ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#scritta_chisiamo {
+    color: white;
+    font-size: 120px;
+    text-align: center;
+    padding-top: 450px;
+}
+
+.collaboratori {
+    color: #00bf63;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.bruna {
+    padding-left: 30px;  
+}
+
+.vincenzo {
+    width: 100%;
+    padding: 20px 0px 0px 150px;
+    margin-left: 60px;
+}
+
+.staff {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 500px;
+    float: left;
+}
+
+.descrizione_bruna {
+    float: left;
+    width: 30%;
+}
+
+.descrizione_bruna1 {
+   margin: 0px 100px 0px 100px;
+}
+
+.descrizione_vincenzo {
+    margin-top: 20px;
+    float: left;
+    width: 30%;
+}
+
+.descrizione_vincenzo1 {
+    margin: 55px 200px 140px 500px;
+ }
+
+.collaboratori2 {
+    padding: 150px 0px 0px 50px;
+}
+
+.collaboratori3 {
+    font-size: 15px;
+    text-align: left;
+}
+
+#descrizione_staff {
+    font-size: 15px;
+    margin: 0px 150px 150px 600px;
+    text-align: left;
+}
+
+#ricono_foto1 {
+    width: 50%;
+    padding-top: 25px;
+    padding-left: 100px;
+}
+
+#ricono_foto1a {
+    text-align:left;
+}
+
+#ricono_foto1b { 
+    width:600px;
+}
+
+#ricono_foto1c { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#ricono_foto2 {
+    width: 50%;
+    padding-top: 25px;
+    padding-left: 700px;
+}
+
+#ricono_foto2a {
+    text-align:left;
+}
+
+#ricono_foto2b { 
+    width:600px;
+}
+
+#ricono_foto2c { 
+    width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 12px;
+}
+
+#ricono_foto3 {
+    width: 50%;
+    padding-top: 25px;
+    padding-left: 100px;
+}
+
+#ricono_foto3a {
+    text-align:left;
+}
+
+#ricono_foto3b { 
+    width:600px;
+}
+
+#ricono_foto3c { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.diplomi {
+    padding-top: 25px;
+}
+
+/* Validi per la pagina Reiki */
+
+.foto_reiki {
+    background-image: url('webp/shoden.webp');
+    width: 100%;  
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#scritta_reiki {
+    color: white;
+    font-size: 120px;
+    text-align: center;
+    padding-top: 450px;
+}
+
+#Mikao {
+    margin-top: 20px;
+    width: 60%;
+}
+
+#atomo {
+    margin-left: 0px;
+    margin-bottom: 80px;
+}
+
+.foto-reiki {
+    text-align: center;
+    margin: 20px 20px 50px 0px;
+}
+
+#operatore_reiki {
+    width: 195px;
+}
+
+/* Validi per la pagina Pranoterapia */
+
+.foto_pranoterapia {
+    background-image: url('webp/pranoterapia1.webp');
+    width: 100%;  
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto-pranoterapia {
+    align-self: center;
+    width: 70%;
+}
+
+.medintegrativa {
+    align-self: center;
+    width: 70%;
+}
+
+.pranoterapeuta {
+    align-self: center;
+    width: 70%;
+}
+
+.maniluce {
+    display: flex;
+    justify-content: center;
+}
+
+.maniluce1 {
+    display: flex;
+    justify-content: center;
+}
+
+.operatoreprano {
+    display: flex;
+    justify-content: center;
+}
+
+.patologie {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.patologie_foto {
+    width: 75%;
+}
+
+.cure1 {
+    padding: 0px 100px 50px 0px;
+}
+
+table {
+    margin: 0px 50px 50px 50px;
+}
+
+table td, table th {
+    border: 1px solid #c9c9c9;
+    padding: 12px;
+    text-align: left;
+}
+
+.coloreverde {
+    color: #00bf63;
+}
+
+.th_1 {
+    width: 20%;
+}
+
+.th_2 {
+    width: 30%;
+}
+
+.th_3 {
+    width: 20%;
+}
+
+.th_4 {
+    width: 30%;
+}
+
+/* Validi per la pagina Digitoscopia */
+
+.foto_digitoscopia {
+    background-image: url('webp/Screenshot_2.webp');
+    width: 100%;  
+    height: 100vh;
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#scritta_digitoscopia {
+    color: grey;
+    font-size: 120px;
+    text-align: center;
+    padding-top: 400px;
+}
+
+.foto-mandel {
+    text-align: center;
+    width: 60%;
+    margin: 20px 20px 20px 0px;
+}
+
+.settori {
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+
+/* Validi per la pagina Tavola settori e Tabella punti*/
+
+.white {
+    background-color: #fff;
+}
+
+.alba {
+    background-image: url('webp/tabellacorsi.webp');
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#alba1 {
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 90px;
+}
+
+.punti {
+    font-size: 12px;
+    padding: 20px 0px 20px 145px;
+}
+
+.punti1 li { 
+    text-align: left;
+    font-size: 10px;
+}
+
+.punti2 li { 
+    text-align: left;
+    font-size: 10px;
+}
+
+#disclaimer {
+    font-size: 10px;
+    margin-left: 145px;
+}
+
+
+
+/* Validi per la pagina Tabella Corsi */
+
+.percorso {
+    margin: 20px 0px 20px 80px;
+}
+
+.testo_colorato {
+    color: #00bf63;
+    text-align: left;
+    font-size: 13px;
+}
+
+.punti3 li { 
+    text-align: left;
+    font-size: 13px;
+}
+
+#padd_ing {
+    margin-top: 20px;
+}
+
+.int {
+    font-size: 13px;
+    border: 0px;
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
+}
+
+.int1 {
+    border-bottom: 1px solid #c9c9c9;
+    margin-bottom: 10px;
+}
+
+.orari_centr {
+    text-align: center;
+    border: 0px;
+}
+
+.linea {
+    width: 65%;
+    margin-left: 50px;
+}
